@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 935px;
+  
+}
+.logo-box{
+  align-items: end;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.logo {
+  font-family: 'Billabong', cursive;
+  font-size: 2.5em;
+  margin: 0;
+  
+}
+
+
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #262626;
+}
+main {
+  padding: 20px 0;
+}
+
+.main-content {
+  width: 65%;
+  
+}
+
+
+
+.post {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.post-header, .post-footer {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.post-header {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.post-header img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.user-info .username {
+  font-weight: bold;
+}
+
+.user-info .location {
+  display: block;
+  color: #8e8e8e;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.post-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-footer button {
+  background-color: transparent;
+  border: none;
+  color: #262626;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.post-footer button:hover {
+  color: #0095f6;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.profile-info .username {
+  font-weight: bold;
+}
+
+.profile-info .name {
+  color: #8e8e8e;
+}

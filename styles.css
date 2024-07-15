@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 935px;
+}
+.logo-box{
+  align-items: end;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.logo {
+  font-family: 'Billabong', cursive;
+  font-size: 2.5em;
+  margin: 0;
+  
+}
+
+
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #262626;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.profile-info h2 {
+  margin: 0;
+  display: inline;
+  margin-right: 30px;
+}
+
+.profile-info button {
+  margin-left: 5px;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-info h4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+
+}
+
+.profile-info p {
+  margin: 4px 0;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.post {
+  width: calc(33.333% - 10px);
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
